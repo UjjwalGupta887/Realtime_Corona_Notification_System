@@ -14,7 +14,7 @@ def getdata(url):
     return r.text
 
 if __name__ == '__main__':
-    notify_Me('Ujjwal', 'Lets stop the spread of this virus together.')
+    
     while True:
         my_html_data = getdata('https://www.mohfw.gov.in/')
 
